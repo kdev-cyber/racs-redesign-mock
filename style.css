@@ -208,3 +208,29 @@ footer {
     font-size: 14px;
     line-height: 1.5;
 }
+
+.top-bar {
+    background-color: #111111;
+    color: #cccccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    font-size: 14px;
+    border-bottom: 1px solid #333333;
+}
+
+.top-bar p {
+    margin: 0;
+}
+
+.top-links a {
+    color: #ffd84d;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.top-links a:hover {
+    text-decoration: underline;
+}

@@ -235,3 +235,36 @@ footer {
 .top-links a:hover {
     text-decoration: underline;
 }
+
+.promo-banner {
+    max-width: 1280px;
+    margin: 45px auto;
+    padding: 28px 30px;
+    background: linear-gradient(135deg, #ffd84d, #d98f00);
+    color: #111111;
+    text-align: center;
+    border-radius: 16px;
+    border: 2px solid #fff0a8;
+    box-shadow: 0 0 30px rgba(255, 216, 77, 0.25);
+}
+
+.promo-banner h2 {
+    margin: 0 0 8px;
+    color: #111111;
+    font-size: 34px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.promo-banner p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.promo-banner strong {
+    background-color: #111111;
+    color: #ffd84d;
+    padding: 4px 8px;
+    border-radius: 6px;
+}

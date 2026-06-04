@@ -282,3 +282,51 @@ footer {
     padding: 4px 8px;
     border-radius: 6px;
 }
+
+.deals {
+    max-width: 1280px;
+    margin: 60px auto;
+    padding: 0 30px;
+}
+
+.deals-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+}
+
+.deal-card {
+    background: linear-gradient(135deg, #241b00, #141418);
+    border: 1px solid #4a3a00;
+    border-radius: 14px;
+    padding: 28px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.deal-card:hover {
+    transform: translateY(-6px);
+    border-color: #ffd84d;
+    box-shadow: 0 0 25px rgba(255,216,77,0.25);
+}
+
+.deal-card h3 {
+    color: #ffd84d;
+    font-size: 22px;
+}
+
+.deal-card p {
+    color: #dddddd;
+    line-height: 1.5;
+}
+
+.deal-card a {
+    display: inline-block;
+    background-color: #ffd84d;
+    color: #111111;
+    padding: 10px 16px;
+    border-radius: 999px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 12px;
+}

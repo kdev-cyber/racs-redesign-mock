@@ -387,3 +387,48 @@ footer {
 .newsletter-form button:hover {
     background-color: #ffe680;
 }
+
+.trade-in {
+    max-width: 1280px;
+    margin: 60px auto;
+    padding: 0 30px;
+}
+
+.trade-in-content {
+    background: linear-gradient(135deg, #111111, #2a1d00);
+    border: 1px solid #4a3a00;
+    border-radius: 16px;
+    padding: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    box-shadow: 0 0 25px rgba(255,216,77,0.12);
+}
+
+.trade-in-content h2 {
+    color: #ffd84d;
+    font-size: 32px;
+    margin: 0 0 10px;
+}
+
+.trade-in-content p {
+    color: #dddddd;
+    font-size: 18px;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.trade-in-content a {
+    background-color: #ffd84d;
+    color: #111111;
+    padding: 14px 22px;
+    border-radius: 999px;
+    text-decoration: none;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.trade-in-content a:hover {
+    background-color: #ffe680;
+}

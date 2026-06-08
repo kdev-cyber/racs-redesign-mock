@@ -54,9 +54,54 @@ section h3 {
 
 footer {
     background-color: #202020;
-    text-align: center;
-    padding: 25px;
     color: #aaaaaa;
+    padding: 45px 30px 25px;
+    margin-top: 60px;
+}
+
+.footer-grid {
+    max-width: 1280px;
+    margin: 0 auto 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.footer-column {
+    text-align: center;
+}
+
+.footer-column h3 {
+    color: #ffd84d;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.footer-column a {
+    display: block;
+    color: #dddddd;
+    text-decoration: none;
+    margin: 8px 0;
+    font-size: 15px;
+}
+
+.footer-column a:hover {
+    color: #ffd84d;
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-top: 20px;
+    border-top: 1px solid #333333;
+    text-align: center;
+    color: #aaaaaa;
+    font-size: 14px;
+}
+
+.footer-bottom p {
+    margin: 6px 0;
 }
 
 .hero {
